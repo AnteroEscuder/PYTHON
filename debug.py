@@ -24,3 +24,16 @@ def dividir(a, b, iterations):
         else:
             results.append(a / b)
     return results
+
+# Test functions
+resultado = sumar(2,2,2)
+print("Resultado sumar: " + str(resultado))
+
+resultados = restar(2,3,3)
+print(f"Resultado restar: {resultado}")
+
+resultado = multiplicar(2,3,2)
+print(f"Resultado multiplicar: {resultado}")
+
+resultado = dividir(2,2,2)
+print(f"Resultado dividir: {resultado}")
